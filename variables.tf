@@ -13,3 +13,8 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "test_variable" {
+  description = "Test variable"
+  type        = string
+  default     = ""
+}
